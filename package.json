@@ -11,11 +11,11 @@
     "start": "node server.js",
     "start:dev": "nodemon server.js",
     "heroku-postbuild": "cd client && npm install && npm run build",
-    "build": " npm install && npm run build"
+    "build": "cd client && npm install"
   },
   "engines": {
-    "node": "16.13.2",
-    "npm": "8.1.2"
+    "node": "18.19.0",
+    "npm": "10.2.3"
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
